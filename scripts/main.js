@@ -1,4 +1,4 @@
-import { fishList } from "./fish.js";
+import { fishList } from "./fish/fish.js";
 
 
 const fishListHTML = fishList()
@@ -6,12 +6,8 @@ const fishListHTML = fishList()
 
 
 const wholeList = `
-<h1>Fish i own</h1>
+<h1 class="own">Fish I Own</h1>
 ${fishListHTML}`
-
-
-
-
 
 
 const existingFishCard = document.querySelector(".ownFish__card")

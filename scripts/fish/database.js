@@ -6,7 +6,7 @@ const database = {
             species: "Angelfish",
             name: "Bart",
             food: "crustaceans",
-            size: 3,
+            size: "small",
             harvestLocation: "Pacific Ocean"
         },
             {
@@ -47,6 +47,33 @@ const database = {
             }
           
           
+    ],
+    tips: [
+      {
+        tip: "Regular Water Changes:",
+        quote: "Perform regular water changes to remove debris, uneaten food, and waste. The frequency depends on the size of the tank and the type of fish, but a general guideline is to change 10-25% of the water every 1-2 weeks"
+      },
+      {
+        tip: "Use a Gravel Vacuum:",
+        quote: "Invest in a gravel vacuum to clean the substrate (gravel or sand) in the tank. This helps remove uneaten food and waste that can accumulate in the substrate."
+      },
+      {
+        tip: "Monitor Water Parameters:",
+        quote: "Regularly test and monitor water parameters such as pH, ammonia, nitrite, and nitrate levels. Keeping these levels in check is vital for the health of your fish. Perform water changes if parameters are out of the recommended range."
+      },
+      {
+        tip: "Use a Quality Filter:",
+        quote: "Install a reliable aquarium filter that is appropriate for the size of your tank. A filter helps remove impurities and provides biological filtration to break down harmful substances."
+      },
+      {
+        tip: "Maintain Good Aquarium Circulation:",
+        quote: "Ensure good water circulation within the tank. Proper water movement helps distribute heat, oxygen, and nutrients evenly and prevents the accumulation of debris in dead spots"
+      },
+      {
+        tip: "Monitor and Address Algae Growth:",
+        quote: "Control and manage algae growth by keeping the tank away from direct sunlight, maintaining proper lighting durations, and ensuring nutrient levels are balanced. You can also add algae-eating fish or invertebrates."
+      }
+
     ]
 }
 
