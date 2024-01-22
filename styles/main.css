@@ -1,0 +1,22 @@
+.ownfish {
+    border: 1px solid black;
+    width: 66%;
+}
+
+.tips {
+    border: 1px solid black;
+    width: 33%;
+    float: inline-end;
+}
+
+.quotes {
+    border: 1px solid black;
+}
+
+.body {
+    border: 1px solid black;
+}
+
+.fishImg {
+    width: 50%;
+}
