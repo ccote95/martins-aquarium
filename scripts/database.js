@@ -34,7 +34,7 @@ const database = {
               name: "GusGus",
               food: "crustaceans",
               size: "small",
-              harvestLocation: "Open seas"
+              harvestLocation: "Coral Triangle"
             },
             {
                 id: 5,
@@ -74,6 +74,24 @@ const database = {
         quote: "Control and manage algae growth by keeping the tank away from direct sunlight, maintaining proper lighting durations, and ensuring nutrient levels are balanced. You can also add algae-eating fish or invertebrates."
       }
 
+    ],
+    locations: [
+      {
+        location: "Atlantic Ocean",
+        quote: "The Atlantic Ocean is a canvas of tales, where waves paint stories upon the shores, and every ripple whispers the secrets of distant horizons."
+      },
+      {
+        location: "Pacific Ocean",
+        quote:"Stretching across the vast canvas of the Pacific Ocean, each wave carries the echoes of a thousand journeys, telling tales of adventure, mystery, and the boundless beauty that dances upon the waters"
+      },
+      {
+        location: "Yellowstone River",
+        quote: "Flowing through the heart of nature's masterpiece, the Yellowstone River whispers tales of untamed beauty, where every bend reveals a chapter of wilderness and every ripple echoes the song of a pristine sanctuary."
+      },
+      {
+        location: "Coral Triangle",
+        quote: "Within the embrace of the Coral Triangle, nature unveils a kaleidoscope of colors beneath the waves, where every coral whispers a story, and every fish dances to the rhythm of an underwater symphony."
+      }
     ]
 }
 
@@ -83,4 +101,9 @@ export const getFish = () => {
 
 export const getTips = () => {
   return database.tips.map(tips => ({...tips}))
+}
+
+export const getLocation = () => {
+  return database.locations.map(locations => ({...locations}))
+
 }
