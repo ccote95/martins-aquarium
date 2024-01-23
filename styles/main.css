@@ -1,3 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
 .title {
     text-align: center;
     font-size:xx-large;
@@ -8,6 +13,8 @@
     margin: auto;
     margin-bottom: 10px;
     border-radius: 50px;
+    background-color: #F69B81 ;
+    box-shadow: 3px 3px 10px;
     
     
     
@@ -21,6 +28,7 @@
     margin: auto;
     margin-top: 10px;
     background-color: #F69B81  ;
+    box-shadow: 3px 3px 10px;
     
 }
 
@@ -33,11 +41,6 @@
 }
 
 
-.tips__card {
-    border: 1px solid black;
-    height: 100%;
-    margin-left: 10px;    
-}
 
 .quotes {
     border: 1px solid black;
@@ -62,7 +65,7 @@
 .fishImg__container {
     width: 35%;
     height: 35%;
-    /* border: 1px solid black; */
+   
     
 }
 
@@ -73,22 +76,52 @@
     border-radius: 10px;
     border: 1px solid black;
     
-  
+    
 }
 .fishText {
-   /* border: 1px solid black; */
-   width: 80%;
-   margin: 10px;
-   text-align: center;
-   font-size: larger;
+   
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
 }
 
 
 .fish_and_Tips {
     margin-bottom: 10px;
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content:; */
+ 
+}
+
+.tankTips {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 32%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #F69B81  ;
+    box-shadow: 3px 3px 10px;
+}
+
+.tipCard {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:#F69B81;
+    box-shadow: 3px 3px 10px;
+}
+
+.tips__card {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 10px;   
+    background-color: aqua; 
 }
 
 

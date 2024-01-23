@@ -1,4 +1,4 @@
-import { getFish } from './database.js'
+import { getFish } from '../database.js'
 
 const allFish = getFish()
 
