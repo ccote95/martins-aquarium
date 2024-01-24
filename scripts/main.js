@@ -1,10 +1,13 @@
 import { fishList } from "./fish/fish.js";
-import { tankTips } from "./Tips/tips.js";
+import { tankTips } from "./tips/tips.js";
+import { locationList } from "./locations/locations.js";
+import { quoteList } from "./locations/locations.js";
 
 
 const fishListHTML = fishList()
 const tipsListHTML = tankTips()
-
+const locationListHTML = locationList()
+const quotesHTML = quoteList()
 
 
 const wholeList = `
@@ -23,3 +26,19 @@ ${tipsListHTML}`
 
 const existingTipCard = document.querySelector(".tips__aside")
 existingTipCard.innerHTML = wholeTipList
+
+
+const wholeLocationList = `
+<h1 class="locationTitle">Places I've Been</h1>
+${locationListHTML}`
+
+const existingLocationCard = document.querySelector(".locationCard")
+existingLocationCard.innerHTML = wholeLocationList
+
+
+const wholeQuote = `
+<h1 class="martinQuotes">Martin's Quotes</h1>
+${quotesHTML}`
+
+const existingQuoteCard = document.querySelector(".quote__card")
+existingQuoteCard.innerHTML = wholeQuote
