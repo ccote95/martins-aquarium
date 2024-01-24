@@ -7,7 +7,7 @@ body {
     text-align: center;
     font-size:xx-large;
     border: 1px solid black;
-    width: 25%;
+    width: 18%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -18,15 +18,17 @@ body {
     
     
     
+    
 }
 
 .own {
     text-align: center;
     border: 1px solid black;
     border-radius: 50px;
-    width: 30%;
+    width: 18%;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 1em;
     background-color: #F69B81  ;
     box-shadow: 3px 3px 10px;
     
@@ -36,17 +38,14 @@ body {
     border: 1px solid black;
     background-color: aqua;
     border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 10px;
      
     
 }
 
 
 
-.quotes {
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .fishCard {
     border: 1px solid black;
@@ -65,7 +64,7 @@ body {
 .fishImg__container {
     width: 35%;
     height: 35%;
-   
+    
     
 }
 
@@ -79,7 +78,7 @@ body {
     
 }
 .fishText {
-   
+    
     width: 80%;
     margin: 10px;
     text-align: center;
@@ -90,14 +89,14 @@ body {
 .fish_and_Tips {
     margin-bottom: 10px;
     display: flex;
- 
+    
 }
 
 .tankTips {
     text-align: center;
     border: 1px solid black;
     border-radius: 50px;
-    width: 32%;
+    width: 20%;
     padding: 5px;
     margin: auto;
     margin-top: 10px;
@@ -121,10 +120,124 @@ body {
     border-radius: 10px;
     height: 100%;
     margin-left: 10px;   
+    margin-bottom: 10px;
     background-color: aqua; 
+    box-shadow: 3px 3px 10px;
 }
 
 
 .text_bold {
     font-weight: bold;
 }
+
+
+.quotes {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 1em;
+    font-weight:500;
+    background-color: #F69B81;
+    box-shadow: 3px 3px 10px;
+    padding: 10px;
+    width: 30%;
+ 
+   
+ 
+}
+
+.quote__card {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.quoteList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.martinQuotes {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 35%;
+    padding: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F69B81  ;
+    box-shadow: 3px 3px 10px;
+}
+
+.locationTitle {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 35%;
+    padding: 3px;
+    margin: auto;
+    margin-top: 10px;
+    
+    background-color: #F69B81  ;
+    box-shadow: 3px 3px 10px;
+}
+
+.locationCard {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px;
+
+}
+
+.locationImg_Container {
+    width: 20%;
+    height: 20%;
+    margin: auto;
+}
+
+.locationImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px;
+    margin: auto;
+}
+
+.location {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 15%;
+    padding: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F69B81  ;
+    box-shadow: 3px 3px 10px;
+
+}
+
+.locationContainer {
+    
+}
+
+

@@ -7,8 +7,12 @@ export const locationList = () => {
 
     for (const location of allLocations) {
         locationHTML += `
+        <div class="locationContainer">
         <div class="location">
-        ${location.location}</div>`
+        ${location.location}</div>
+        <div class="locationImg_Container">
+        <img class="locationImg"src="${location.image}"></div>
+        </div>`
         
     }
     locationHTML += "</ul>"
@@ -16,13 +20,15 @@ export const locationList = () => {
 }
 
 export const quoteList = () => {
-    let quoteHTML = "<ul>"
+    let quoteHTML = ` <div class="quoteList">`
+     
     for (const quote of allLocations) {
         quoteHTML += `
-        <div class="quoteCard">
+        <div class="quotes">
         ${quote.quote}</div>`
         
     }
-    quoteHTML += "</ul>"
+    
+    quoteHTML += `</div>`
     return quoteHTML
 }

@@ -29,7 +29,7 @@ existingTipCard.innerHTML = wholeTipList
 
 
 const wholeLocationList = `
-<h1 class="locationList">Places I've Been</h1>
+<h1 class="locationTitle">Places I've Been</h1>
 ${locationListHTML}`
 
 const existingLocationCard = document.querySelector(".locationCard")
@@ -37,8 +37,8 @@ existingLocationCard.innerHTML = wholeLocationList
 
 
 const wholeQuote = `
-<h1 class="martinQuotes">Quotes</h1>
+<h1 class="martinQuotes">Martin's Quotes</h1>
 ${quotesHTML}`
 
-const existingQuoteCard = document.querySelector(".quoteCard")
+const existingQuoteCard = document.querySelector(".quote__card")
 existingQuoteCard.innerHTML = wholeQuote
